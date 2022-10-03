@@ -10,6 +10,8 @@ const botTypeClasses = {
 };
 
 function BotCard({ bot }) {
+  
+  }
   return (
     <div className="ui column">
       <div
