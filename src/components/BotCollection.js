@@ -1,13 +1,7 @@
 import React from "react";
 import BotCard from "./BotCard";
 
-function BotCollection({
-  bots,
-  botArmy,
-  setBotArmy,
-  setBotData,
-  setActiveBot,
-}) {
+function BotCollection({ bots, botArmy, setBotArmy, setBotData }) {
   // Your code here
   return (
     <div className="ui four column grid">
@@ -21,7 +15,6 @@ function BotCollection({
             botArmy={botArmy}
             setBotArmy={setBotArmy}
             setBotData={setBotData}
-            setActiveBot={setActiveBot}
           />
         ))}
       </div>
